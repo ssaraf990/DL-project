@@ -1,11 +1,6 @@
-# CNN-LSTM Hybrid Model Architecture
+# CNN-LSTM Hybrid Model Workspace
 
-- **Assigned Team Member:** Karan Shah (Student ID: 230953540)
-- **Input Feature Representation:** Time-Frequency Representation / Spectrogram-based Hybrid
-
-## Architecture Overview
-The CNN-LSTM model combines 2D convolutional layers for spatial feature extraction across time-frequency representations with recurrent LSTM layers to learn sequential context over time.
-
-## Directory Contents
-- Model architecture definitions (`model.py` - to be implemented).
-- Hyperparameter configuration (`config.json` or YAML - to be added).
+- **Member Name:** Karan Shah
+- **Registration Number:** 230953540
+- **Assigned Model:** CNN-LSTM Hybrid
+- **Model Role:** Combines 2D spatial feature extraction via convolutional layers with sequential context modeling via recurrent LSTM layers on time-frequency spectrogram representations.

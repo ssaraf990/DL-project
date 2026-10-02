@@ -1,11 +1,6 @@
-# MLP Model Architecture
+# MLP Model Workspace
 
-- **Assigned Team Member:** Mridul Arora (Student ID: 230953330)
-- **Input Feature Representation:** MFCC (Mel-Frequency Cepstral Coefficients)
-
-## Architecture Overview
-The Multilayer Perceptron (MLP) serves as a baseline deep learning model. The input vector consists of summary statistics (mean, variance, delta) calculated across MFCC coefficients extracted from audio frames.
-
-## Directory Contents
-- Model architecture definitions (`model.py` - to be implemented).
-- Hyperparameter configuration (`config.json` or YAML - to be added).
+- **Member Name:** Mridul Arora
+- **Registration Number:** 230953330
+- **Assigned Model:** Multilayer Perceptron (MLP)
+- **Model Role:** Serves as a baseline deep learning model for environmental sound classification, utilizing aggregated MFCC features to establish benchmark performance.
