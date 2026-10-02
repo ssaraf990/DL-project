@@ -1,16 +1,23 @@
 # Data Directory
 
-This directory manages the raw ESC-50 audio data and processed feature datasets.
+This directory manages raw ESC-50 audio data and processed feature artifacts.
 
-## Directory Layout
+## Dataset Setup Instructions
 
-- `raw/`: Place the original ESC-50 dataset files here (audio files in `.wav` format along with `meta/esc50.csv`).
-- `processed/`: Saved preprocessed representations (e.g. extracted MFCC arrays, Mel-spectrogram tensors, sequential feature matrices).
+Place the official ESC-50 dataset files into `data/raw/` with the following structure:
 
-## ESC-50 Dataset Details
+```
+data/
+└── raw/
+    ├── audio/              # Contains 2,000 original .wav audio files
+    └── meta/
+        └── esc50.csv       # Dataset metadata CSV file
+```
 
-- **Source:** [ESC-50 GitHub Repository](https://github.com/karolpiczak/ESC-50)
-- **Audio Spec:** 5 seconds long, sampled at 44.1 kHz (resampled as needed during preprocessing).
-- **Metadata File:** `esc50.csv` containing columns `filename`, `fold`, `target`, `category`, `esc10`, `src_file`, `take`.
+## Dataset Specifications
 
-> **Note:** Raw audio files and processed binary feature matrices (`.npy`, `.pt`, etc.) are ignored by git to maintain repository performance.
+- **Total Clips:** 2,000 audio files (5 seconds each).
+- **Classes:** 50 classes (40 clips per class).
+- **Metadata Columns:** `filename`, `fold`, `target`, `category`, `esc10`, `src_file`, `take`.
+
+> **Git Policy Notice:** `.wav` audio files and preprocessed feature matrices (`.npy`, `.pt`) are ignored by `.gitignore` and must NOT be committed to the remote repository.

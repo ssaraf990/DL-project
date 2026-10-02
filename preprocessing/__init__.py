@@ -1,17 +1,26 @@
 """
 Preprocessing module for ESC-50 Environmental Sound Classification.
-Contains audio loading utilities, feature extraction (MFCC, Mel-spectrogram, etc.), and dataset loaders.
+Provides audio loading utilities, reproducibility control, feature extraction, and dataset loaders.
 """
 
-from .audio_utils import load_audio, pad_or_truncate_audio
-from .feature_extraction import extract_mfcc, extract_mel_spectrogram, extract_sequential_mfcc
+from .audio_utils import load_audio, pad_or_truncate_audio, normalize_waveform
+from .feature_extraction import (
+    extract_mfcc,
+    extract_sequential_mfcc,
+    extract_mel_spectrogram,
+    extract_hybrid_spectrogram,
+)
 from .dataset_loader import ESC50Dataset
+from .reproducibility import set_seed
 
 __all__ = [
     "load_audio",
     "pad_or_truncate_audio",
+    "normalize_waveform",
     "extract_mfcc",
-    "extract_mel_spectrogram",
     "extract_sequential_mfcc",
+    "extract_mel_spectrogram",
+    "extract_hybrid_spectrogram",
     "ESC50Dataset",
+    "set_seed",
 ]
