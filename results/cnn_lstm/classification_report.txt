@@ -1,0 +1,59 @@
+ESC-50 CNN-LSTM Hybrid Model Classification Report (Held-out Fold 5 Evaluation)
+=================================================================
+
+                  precision    recall  f1-score   support
+
+             dog     0.6250    0.6250    0.6250         8
+         rooster     0.6667    1.0000    0.8000         8
+             pig     0.0000    0.0000    0.0000         8
+             cow     0.8750    0.8750    0.8750         8
+            frog     0.5000    0.5000    0.5000         8
+             cat     0.8571    0.7500    0.8000         8
+             hen     0.6667    0.2500    0.3636         8
+         insects     0.3750    0.3750    0.3750         8
+           sheep     0.6000    0.3750    0.4615         8
+            crow     0.8000    1.0000    0.8889         8
+            rain     0.8889    1.0000    0.9412         8
+       sea_waves     0.6667    0.5000    0.5714         8
+  crackling_fire     0.5000    0.5000    0.5000         8
+        crickets     0.7500    0.3750    0.5000         8
+  chirping_birds     0.5385    0.8750    0.6667         8
+     water_drops     0.0000    0.0000    0.0000         8
+            wind     0.2857    0.5000    0.3636         8
+   pouring_water     0.7273    1.0000    0.8421         8
+    toilet_flush     0.5714    1.0000    0.7273         8
+    thunderstorm     0.8333    0.6250    0.7143         8
+     crying_baby     0.7000    0.8750    0.7778         8
+        sneezing     0.8333    0.6250    0.7143         8
+        clapping     0.6000    0.3750    0.4615         8
+       breathing     1.0000    0.1250    0.2222         8
+        coughing     0.7778    0.8750    0.8235         8
+       footsteps     0.5000    0.7500    0.6000         8
+        laughing     0.4286    0.3750    0.4000         8
+  brushing_teeth     0.6000    0.7500    0.6667         8
+         snoring     0.8000    0.5000    0.6154         8
+drinking_sipping     0.4000    0.5000    0.4444         8
+ door_wood_knock     1.0000    0.8750    0.9333         8
+     mouse_click     0.4286    0.3750    0.4000         8
+ keyboard_typing     0.4167    0.6250    0.5000         8
+door_wood_creaks     0.2000    0.1250    0.1538         8
+     can_opening     0.6250    0.6250    0.6250         8
+ washing_machine     0.4000    0.5000    0.4444         8
+  vacuum_cleaner     0.4286    0.3750    0.4000         8
+     clock_alarm     0.5714    1.0000    0.7273         8
+      clock_tick     0.5000    0.6250    0.5556         8
+  glass_breaking     0.8571    0.7500    0.8000         8
+      helicopter     0.2857    0.2500    0.2667         8
+        chainsaw     0.4000    0.7500    0.5217         8
+           siren     0.5000    0.3750    0.4286         8
+        car_horn     0.5833    0.8750    0.7000         8
+          engine     0.4000    0.5000    0.4444         8
+           train     0.5000    0.3750    0.4286         8
+    church_bells     0.6154    1.0000    0.7619         8
+        airplane     0.6000    0.3750    0.4615         8
+       fireworks     0.0000    0.0000    0.0000         8
+        hand_saw     0.8333    0.6250    0.7143         8
+
+        accuracy                         0.5775       400
+       macro avg     0.5702    0.5775    0.5502       400
+    weighted avg     0.5702    0.5775    0.5502       400

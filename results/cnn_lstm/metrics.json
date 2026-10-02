@@ -1,0 +1,15 @@
+{
+    "accuracy": 0.5775,
+    "precision_macro": 0.5702414252414252,
+    "precision_weighted": 0.5702414252414252,
+    "recall_macro": 0.5775,
+    "recall_weighted": 0.5775,
+    "f1_macro": 0.550173181121088,
+    "f1_weighted": 0.550173181121088,
+    "best_epoch_val_acc": 0.5775,
+    "final_val_loss": 2.092066535949707,
+    "total_training_time_seconds": 964.3212740421295,
+    "hardware_used": "Apple Silicon MPS GPU",
+    "epochs_trained": 40,
+    "held_out_fold": 5
+}
