@@ -1,0 +1,16 @@
+true_class,predicted_class,count
+airplane,thunderstorm,4
+fireworks,crow,4
+crying_baby,siren,4
+crickets,clock_alarm,4
+coughing,sneezing,3
+pouring_water,brushing_teeth,3
+sea_waves,clapping,3
+frog,door_wood_knock,3
+mouse_click,clock_tick,2
+hand_saw,sea_waves,2
+train,rain,2
+airplane,sea_waves,2
+keyboard_typing,frog,2
+chainsaw,pig,2
+helicopter,wind,2
