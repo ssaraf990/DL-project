@@ -1,0 +1,27 @@
+{
+    "accuracy": 0.4875,
+    "precision_macro": 0.4829693084693084,
+    "precision_weighted": 0.4829693084693084,
+    "recall_macro": 0.4875,
+    "recall_weighted": 0.4875,
+    "f1_macro": 0.4675035051919558,
+    "f1_weighted": 0.4675035051919558,
+    "best_epoch_val_acc": 0.4875,
+    "best_epoch": 24,
+    "final_epoch_val_acc": 0.4725,
+    "final_val_loss": 3.3485669898986816,
+    "total_training_time_seconds": 90.59642791748047,
+    "hardware_used": "Apple Silicon MPS GPU",
+    "epochs_trained": 40,
+    "held_out_fold": 5,
+    "trainable_parameters": 641538,
+    "cv_fold_accuracies": {
+        "1": 0.4625,
+        "2": 0.4875,
+        "3": 0.45,
+        "4": 0.5075,
+        "5": 0.4875
+    },
+    "cv_mean_accuracy": 0.4789999999999999,
+    "cv_std_accuracy": 0.020346989949375782
+}
