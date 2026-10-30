@@ -1,0 +1,2 @@
+accuracy,precision_macro,precision_weighted,recall_macro,recall_weighted,f1_macro,f1_weighted,fold5_loss,best_epoch,epochs_completed,training_duration_seconds,feature_extraction_seconds,device,seed,training_samples,held_out_samples,training_folds,held_out_fold,input_dimensions,batch_size,learning_rate,weight_decay
+0.38,0.3653983793983794,0.3653983793983794,0.38,0.38,0.3561448312534596,0.3561448312534596,2.7478716468811033,38,40,19.948019000003114,62.49323440005537,CPU,42,1600,400,"[1, 2, 3, 4]",5,40,32,0.001,0.0001

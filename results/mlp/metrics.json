@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.38,
+  "precision_macro": 0.3653983793983794,
+  "precision_weighted": 0.3653983793983794,
+  "recall_macro": 0.38,
+  "recall_weighted": 0.38,
+  "f1_macro": 0.3561448312534596,
+  "f1_weighted": 0.3561448312534596,
+  "fold5_loss": 2.7478716468811033,
+  "best_epoch": 38,
+  "epochs_completed": 40,
+  "training_duration_seconds": 19.948019000003114,
+  "feature_extraction_seconds": 62.49323440005537,
+  "device": "CPU",
+  "seed": 42,
+  "training_samples": 1600,
+  "held_out_samples": 400,
+  "training_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "held_out_fold": 5,
+  "input_dimensions": 40,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001
+}

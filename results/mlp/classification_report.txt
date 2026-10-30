@@ -1,0 +1,59 @@
+ESC-50 MLP classification report - held-out fold 5
+=============================================================
+
+                  precision    recall  f1-score   support
+
+             dog     0.5714    0.5000    0.5333         8
+         rooster     0.7778    0.8750    0.8235         8
+             pig     0.1429    0.1250    0.1333         8
+             cow     0.5000    0.3750    0.4286         8
+            frog     0.2000    0.1250    0.1538         8
+             cat     0.7143    0.6250    0.6667         8
+             hen     0.4167    0.6250    0.5000         8
+         insects     0.6000    0.3750    0.4615         8
+           sheep     0.6000    0.7500    0.6667         8
+            crow     0.5000    1.0000    0.6667         8
+            rain     0.5385    0.8750    0.6667         8
+       sea_waves     0.2857    0.5000    0.3636         8
+  crackling_fire     0.4444    0.5000    0.4706         8
+        crickets     0.2222    0.2500    0.2353         8
+  chirping_birds     0.4000    0.2500    0.3077         8
+     water_drops     0.0000    0.0000    0.0000         8
+            wind     0.3000    0.3750    0.3333         8
+   pouring_water     0.4000    0.2500    0.3077         8
+    toilet_flush     0.8333    0.6250    0.7143         8
+    thunderstorm     0.5455    0.7500    0.6316         8
+     crying_baby     0.3636    0.5000    0.4211         8
+        sneezing     0.2000    0.3750    0.2609         8
+        clapping     0.5455    0.7500    0.6316         8
+       breathing     0.6667    0.2500    0.3636         8
+        coughing     0.4286    0.3750    0.4000         8
+       footsteps     0.2857    0.2500    0.2667         8
+        laughing     0.1818    0.2500    0.2105         8
+  brushing_teeth     0.4167    0.6250    0.5000         8
+         snoring     0.3333    0.2500    0.2857         8
+drinking_sipping     0.0000    0.0000    0.0000         8
+ door_wood_knock     0.4545    0.6250    0.5263         8
+     mouse_click     0.3333    0.1250    0.1818         8
+ keyboard_typing     0.2857    0.2500    0.2667         8
+door_wood_creaks     0.0000    0.0000    0.0000         8
+     can_opening     0.5000    0.2500    0.3333         8
+ washing_machine     0.0000    0.0000    0.0000         8
+  vacuum_cleaner     0.5000    0.2500    0.3333         8
+     clock_alarm     0.5000    0.8750    0.6364         8
+      clock_tick     0.0000    0.0000    0.0000         8
+  glass_breaking     0.5000    1.0000    0.6667         8
+      helicopter     0.1667    0.1250    0.1429         8
+        chainsaw     0.6000    0.3750    0.4615         8
+           siren     0.1818    0.2500    0.2105         8
+        car_horn     0.5000    0.5000    0.5000         8
+          engine     0.1667    0.1250    0.1429         8
+           train     0.6667    0.5000    0.5714         8
+    church_bells     0.5000    0.3750    0.4286         8
+        airplane     0.0000    0.0000    0.0000         8
+       fireworks     0.0000    0.0000    0.0000         8
+        hand_saw     0.0000    0.0000    0.0000         8
+
+        accuracy                         0.3800       400
+       macro avg     0.3654    0.3800    0.3561       400
+    weighted avg     0.3654    0.3800    0.3561       400
